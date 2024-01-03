@@ -1,0 +1,98 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "Polygon background created using p5.js\n\nNoise scale: Increasing this will zoom the camera out, decreasing it will zoom the camera in. Higher values may cause lag.\n\nTime scale: How fast the animation will be.\n\nVoxel size: Size of the grid used to generate the polygons. Lower values will create high lag.\n\nDraw amount: How many polygon layers there are.\n\nDraw threshold begin: Lower values will make the background more filled, but it will also create lag.\n\nLoop length: How long the animation will be in frames, set to 0 to disable loop.\n\nGrid snap fx: Enabling this will make the borders of the polygons more fuzzy.\n\nAsync render: If you're using lower voxel size values, one frame may take more than 10 seconds to render. Enabling this will render the frame in the background while it's still being drawn.\n\nDebug: Don't enable this.",
+	"file" : "bg.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"debug" : 
+			{
+				"index" : 8,
+				"order" : 108,
+				"text" : "Debug",
+				"type" : "bool",
+				"value" : false
+			},
+			"drawnum" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "Draw amount",
+				"type" : "textinput",
+				"value" : "8"
+			},
+			"drawthresholdbegin" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "Draw threshold begin",
+				"type" : "textinput",
+				"value" : "0.25"
+			},
+			"looplength" : 
+			{
+				"index" : 5,
+				"order" : 105,
+				"text" : "Loop length",
+				"type" : "textinput",
+				"value" : "10000"
+			},
+			"noisescale" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "Noise scale",
+				"type" : "textinput",
+				"value" : "0.925"
+			},
+			"realTime" : 
+			{
+				"index" : 7,
+				"order" : 107,
+				"text" : "Async render",
+				"type" : "bool",
+				"value" : false
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			},
+			"tessellation" : 
+			{
+				"index" : 6,
+				"order" : 106,
+				"text" : "Grid snap fx",
+				"type" : "bool",
+				"value" : false
+			},
+			"timescale" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "Time scale",
+				"type" : "textinput",
+				"value" : "0.000375"
+			},
+			"voxelsize" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "Voxel size",
+				"type" : "textinput",
+				"value" : "25"
+			}
+		}
+	},
+	"preview" : "preview.jpg",
+	"tags" : [ "Abstract" ],
+	"title" : "p5.js Polygon Background",
+	"type" : "web",
+	"version" : 2,
+	"visibility" : "public",
+	"workshopid" : "2495395043",
+	"workshopurl" : "steam://url/CommunityFilePage/2495395043"
+}
